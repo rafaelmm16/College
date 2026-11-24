@@ -1,4 +1,4 @@
-[← Voltar ao repositório principal](../../../README.md) • [🌐 Site do Portfólio](https://rafaelmm16.github.io/college/)
+[← Voltar ao repositório principal](../../../README.md) • [🌐 Site do Portfólio](https://rafaelmm16.github.io/College/)
 
 # Projeto Integrador VIII-B — Recicla Capixaba
 

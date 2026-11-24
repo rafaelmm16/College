@@ -36,7 +36,7 @@ export const AUTHOR = {
   location: "São Mateus, ES - Brasil",
   githubUrl: "https://github.com/rafaelmm16",
   avatarUrl: "https://avatars.githubusercontent.com/u/39861526?v=4",
-  repoUrl: "https://github.com/rafaelmm16/college",
+  repoUrl: "https://github.com/rafaelmm16/College",
 };
 
 const MONOREPO_TREE_BASE = `${AUTHOR.repoUrl}/tree/main`;

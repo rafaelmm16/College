@@ -2,7 +2,7 @@
 
 Monorepositório + site em **Next.js** e **Tailwind CSS** que reúne, em um único lugar, todos os códigos e projetos de 19 disciplinas cursadas durante a graduação em **Sistemas de Informação** por [Rafael Merlo (@rafaelmm16)](https://github.com/rafaelmm16).
 
-🌐 **Site no GitHub Pages:** [https://rafaelmm16.github.io/college/](https://rafaelmm16.github.io/College/)
+🌐 **Site no GitHub Pages:** [https://rafaelmm16.github.io/College/](https://rafaelmm16.github.io/College/)
 
 ## ✨ O que este repositório contém
 
