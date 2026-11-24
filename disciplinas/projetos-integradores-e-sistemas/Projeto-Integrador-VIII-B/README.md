@@ -1,126 +1,29 @@
-# ♻️ Recicla Capixaba - Jogos Educativos
+[← Voltar ao repositório principal](../../../README.md) • [🌐 Site do Portfólio](https://rafaelmm16.github.io/college/)
 
-Plataforma de jogos educativos sobre reciclagem e sustentabilidade, baseada no programa Recicla Capixaba.
+# Projeto Integrador VIII-B — Recicla Capixaba
+
+> **Área:** Projetos Integradores & Sistemas · **Linguagem:** TypeScript · **Ano:** 2025
+
+## 📖 Sobre o Projeto
+
+**Recicla Capixaba — Jogos Educativos** é uma plataforma web interativa sobre reciclagem e sustentabilidade inspirada no programa *Recicla Capixaba*, desenvolvida para a disciplina **Projeto Integrador VIII-B**.
 
 ## 🎮 Jogos Disponíveis
 
-### 1. 🗑️ Separe os Resíduos
-Jogo de classificação onde o jogador deve separar corretamente diferentes materiais recicláveis:
-- Metais (alumínio, sucata ferrosa)
-- Plásticos (garrafas PET, sacolas, tampinhas)
-- Cerâmicas
-- Pneus
-- Isopor
+1. **🗑️ Separe os Resíduos** — jogo de classificação de materiais recicláveis (metais, plásticos, cerâmicas, pneus e isopor) com sistema de 3 vidas, cronômetro, 15 itens e ranking.
+2. **🧠 Quiz de Reciclagem** — 10 perguntas educativas com feedback imediato, explicações detalhadas, pontuação e ranking.
+3. **🧩 Memória Ecológica** — jogo da memória temático focado em conscientização ambiental.
 
-**Recursos:**
-- Sistema de vidas (3 vidas)
-- Cronômetro
-- 15 itens para classificar
-- Salvamento de pontuação no ranking
+## 📂 Conteúdo da Pasta
 
-### 2. 🧠 Quiz de Reciclagem
-10 perguntas educativas sobre reciclagem com explicações detalhadas:
-- Cores das lixeiras
-- Tríplice lavagem de embalagens
-- Importância da separação de tampinhas
-- Reciclagem de alumínio
-- Destino correto de cada material
+- `project/` — código-fonte completo da aplicação web em TypeScript.
 
-**Recursos:**
-- Feedback imediato
-- Explicações educativas
-- Sistema de pontuação
-- Ranking de melhores jogadores
+## 🚀 Como Executar Localmente
 
-### 3. 🧩 Memória Ecológica
-Jogo da memória com 8 pares de materiais recicláveis:
-- Alumínio
-- Plástico
-- Pneu
-- Cerâmica
-- Isopor
-- Metal
-- Tampinha
-- Sacola
-
-**Recursos:**
-- Contador de movimentos
-- Cronômetro
-- Pontuação baseada em performance
-- Sistema de ranking
-
-## 🚀 Estrutura Preparada para Next.js
-
-O projeto está estruturado no diretório `/app` seguindo o padrão do Next.js App Router. Para converter completamente, veja [NEXTJS_SETUP.md](./NEXTJS_SETUP.md).
-
-## ⚙️ Configuração
-
-### Variáveis de Ambiente
-
-O projeto usa Supabase. As variáveis já estão configuradas em `.env.local`:
-
-```env
-NEXT_PUBLIC_SUPABASE_URL=sua_url_do_supabase
-NEXT_PUBLIC_SUPABASE_ANON_KEY=sua_chave_anon_do_supabase
-````
-
-## 🏃 Como Executar
-
-### Modo Atual (Vite)
+Requer **Node.js**:
 
 ```bash
+cd project
 npm install
 npm run dev
 ```
-
-Acesse: http://localhost:5173
-
-### Para Converter para Next.js
-
-1.  Instale o Next.js: `npm install next`
-2.  Atualize os scripts no package.json (veja NEXTJS\_SETUP.md)
-3.  Execute: `npm run dev`
-4.  Acesse: http://localhost:3000
-
-## 📦 Build para Produção
-
-### Vite (atual)
-
-```bash
-npm run build
-npm run preview
-```
-
-### Next.js (após conversão)
-
-```bash
-npm run build
-npm start
-```
-
-## 🌿 Materiais Recicláveis
-
-O projeto ensina sobre a separação correta de:
-
-✅ Embalagens de alumínio e metais ferrosos
-✅ Plásticos (garrafas PET, sacolas)
-✅ Tampinhas plásticas e lacres
-✅ Pneus
-✅ Cerâmicas
-✅ Isopor
-✅ Embalagens de agrotóxicos (após tríplice lavagem)
-
-## ✨ Funcionalidades
-
-  - ✅ Interface intuitiva e responsiva
-  - ✅ Salvamento automático de pontuações
-  - ✅ Rankings por jogo
-  - ✅ Feedback educativo
-  - ✅ Design sustentável com tema verde
-  - ✅ Preparado para Next.js
-  - ✅ Integração completa com Supabase
-  - ✅ Row Level Security configurado
-
-## 🤝 Contribuindo
-
-Este é um projeto educativo sobre sustentabilidade. Sugestões são bem-vindas\!

@@ -1,45 +1,25 @@
+[← Voltar ao repositório principal](../../../README.md) • [🌐 Site do Portfólio](https://rafaelmm16.github.io/college/)
+
 # Programação Orientada a Objetos (POO)
 
-Este repositório contém uma coleção de exercícios e projetos desenvolvidos para a disciplina de **Programação Orientada a Objetos**. O conteúdo abrange desde conceitos básicos de lógica em Java até aplicações avançadas de herança, polimorfismo e interfaces gráficas (GUI).
+> **Área:** Fundamentos & Paradigmas · **Linguagem:** Java · **Ano:** 2021
 
-## 📂 Estrutura do Repositório
+## 📖 Sobre
 
-O repositório está organizado nas seguintes secções principais:
+Coleção de exercícios, aulas práticas e projetos desenvolvidos para a disciplina de **Programação Orientada a Objetos** em **Java**, abrangendo desde sintaxe básica até herança, polimorfismo, encapsulamento e interfaces gráficas (`Swing` / `JOptionPane`).
 
-### 1. Atividade Avaliativa (Sistema de Help Desk)
-Um sistema de gestão de chamados que demonstra os pilares da POO:
-* **Classes e Objetos**: Representação de chamados gerais e de rede.
-* **Herança**: A classe `ChamadoRede` estende as funcionalidades de uma classe base `Chamado`.
-* **Polimorfismo e Cast**: Uso de `instanceof` e conversão de tipos para tratar diferentes categorias de chamados na mesma lista.
-* **Interatividade**: Menu via consola para registar, listar e resolver problemas.
+## 📂 Estrutura da Pasta
 
-### 2. Exercícios de Lógica (Fibonacci)
-Implementações para geração da sequência de Fibonacci:
-* **Fibonacci (GUI)**: Utiliza `JOptionPane` para permitir que o utilizador escolha a quantidade de termos através de uma interface visual.
-* **Lógica de Cálculo**: Algoritmo iterativo para calcular e exibir a série de números.
-
-### 3. Lista de Exercícios 01
-Conjunto de exercícios iniciais para fixação da sintaxe Java e estruturas de controlo.
+- `ATIVIDADE AVALIATIVA/` — **Sistema de Help Desk**: gestão de chamados demonstrando classes/objetos, herança (`ChamadoRede` estendendo `Chamado`), polimorfismo, `instanceof` e menu interativo no console.
+- `Fibonacci/` — implementações iterativas e com interface visual (`JOptionPane`) para geração da sequência de Fibonacci.
+- `Lista 01/` — exercícios iniciais de fixação da sintaxe Java e estruturas de controle.
+- `Atividade 05.07.21/`, `Aula 12.05.21/`, `contadores/` — atividades práticas e exemplos de aula.
 
 ## 🚀 Como Executar
 
-Para correr qualquer um dos projetos, certifique-se de que tem o **JDK (Java Development Kit)** instalado.
+Requer o **JDK (Java Development Kit)** instalado:
 
-1.  Navegue até à pasta do exercício pretendido.
-2.  Compile o ficheiro `.java`:
-    ```bash
-    javac NomeDoFicheiro.java
-    ```
-3.  Execute a classe principal:
-    ```bash
-    java NomeDoFicheiro
-    ```
-
-## 🛠️ Tecnologias Utilizadas
-* **Linguagem**: Java
-* **Interface Gráfica**: Swing (`JOptionPane`)
-* **IDE Sugerida**: NetBeans ou VS Code (ficheiros de projeto NetBeans incluídos).
-
----
-
-**Autor:** Rafael
+```bash
+javac NomeDoArquivo.java
+java NomeDoArquivo
+```

@@ -1,17 +1,23 @@
-# Back_to_Python
+[← Voltar ao repositório principal](../../../README.md) • [🌐 Site do Portfólio](https://rafaelmm16.github.io/college/)
 
-## Sobre
+# Programação Funcional
 
-Repositório para a Disciplina de Programação Funcional
+> **Área:** Fundamentos & Paradigmas · **Linguagem:** Python · **Ano:** 2020
 
-### Pre-requisites
+## 📖 Sobre
 
-Necessário a instalação do Python
+Atividades e estudos desenvolvidos na disciplina de **Programação Funcional** utilizando **Python**, explorando funções puras, recursão, funções de alta ordem e manipulação declarativa de dados.
 
+## 📂 Conteúdo da Pasta
+
+- `python/` — scripts e exercícios resolvidos em Python.
+- `Exemplos Simples.txt` — anotações e pequenos exemplos de sintaxe e lógica.
+- `Missing_Characters.py` — exercício prático em Python.
+
+## 🚀 Como Executar
+
+Requer [Python 3](https://www.python.org/downloads/) instalado:
+
+```bash
+python Missing_Characters.py
 ```
-https://www.python.org/downloads/
-```
-
-## Authors
-
-* **Rafael Merlo** - [Perfil](https://github.com/rafaelmm16)

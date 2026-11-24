@@ -1,16 +1,27 @@
-# Projeto-Final_SM
-Projeto final da disciplina de Sistemas Multimídia.
+[← Voltar ao repositório principal](../../../README.md) • [🌐 Site do Portfólio](https://rafaelmm16.github.io/college/)
 
+# Sistemas Multimídia — Projeto Final
 
-Disciplina: Sistemas Multimídia 
+> **Área:** Projetos Integradores & Sistemas · **Linguagem:** GDScript (Godot Engine) · **Ano:** 2022
 
-Semestre: 2021/2 EARTE 
+## 📖 Sobre o Projeto
 
-Prof. Leandro Lesqueves Costalonga 
+Projeto final desenvolvido para a disciplina de **Sistemas Multimídia** utilizando **Godot Engine** e **GDScript**.
 
-DCEL / CEUNES / UFES 
+### 🎓 Informações Acadêmicas
 
-Aluno: Rafael Merlo Mendes & Kethlen Correia de Jesus 
+- **Disciplina:** Sistemas Multimídia
+- **Semestre:** 2021/2 EARTE
+- **Professor:** Leandro Lesqueves Costalonga
+- **Instituição:** DCEL / CEUNES / UFES
+- **Autores:** Rafael Merlo Mendes & Kethlen Correia de Jesus
 
-Matrícula: 2016204382 / 2018205324 
+## 📂 Conteúdo da Pasta
 
+- `Projeto Final/` — cenas, scripts `.gd` e assets multimídia do projeto na Godot Engine.
+
+## 🚀 Como Executar
+
+1. Instale a [Godot Engine](https://godotengine.org/).
+2. Importe o projeto localizado em `Projeto Final/`.
+3. Execute a cena principal pela interface da Godot.

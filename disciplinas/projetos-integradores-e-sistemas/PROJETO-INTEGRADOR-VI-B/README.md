@@ -1,42 +1,39 @@
-# Projeto Integrador VI - Turma B: Simulador de Semáforo com Arduino
+[← Voltar ao repositório principal](../../../README.md) • [🌐 Site do Portfólio](https://rafaelmm16.github.io/college/)
 
-Este projeto simula o funcionamento de um semáforo utilizando um Arduino Uno, LEDs e um botão para a travessia de pedestres, desenvolvido no Tinkercad.
+# Projeto Integrador VI-B — Simulador de Semáforo com Arduino
 
-![Simulador de Semáforo](/semaforo.png)
+> **Área:** Projetos Integradores & Sistemas · **Linguagem:** C++ (Arduino) · **Ano:** 2024
 
+![Simulador de Semáforo](./semaforo.png)
 
-## Descrição do Projeto
+## 📖 Sobre o Projeto
 
-Este projeto implementa um semáforo com três LEDs (vermelho, amarelo e verde) controlados por um Arduino Uno.  O sistema alterna as luzes do semáforo em intervalos específicos, simulando o funcionamento de um semáforo real.  Além disso, um botão permite simular a solicitação de travessia de pedestres, alterando o ciclo do semáforo para garantir a segurança.
+Simulador de semáforo desenvolvido no **Tinkercad** para a disciplina **Projeto Integrador VI-B**, utilizando **Arduino Uno**, LEDs (vermelho, amarelo e verde) e um botão de travessia para pedestres.
 
-## Funcionamento
+## ⚙️ Funcionamento
 
-O semáforo opera em um ciclo contínuo, com os seguintes tempos para cada LED:
+O semáforo opera em ciclo contínuo com os tempos:
 
-* **Vermelho:** 5 segundos
-* **Amarelo:** 2 segundos
-* **Verde:** 5 segundos
+- **Vermelho:** 5 segundos
+- **Amarelo:** 2 segundos
+- **Verde:** 5 segundos
 
-Ao pressionar o botão de pedestre, o semáforo interrompe o ciclo normal e realiza a seguinte sequência:
+Ao pressionar o botão de pedestre:
 
-* Se o verde estiver aceso, ele é desligado e o amarelo acende por 2 segundos.
-* Em seguida, o vermelho acende por 5 segundos, permitindo a travessia segura dos pedestres.
-* Após a travessia, o ciclo normal do semáforo é retomado.
+1. Se o LED verde estiver aceso, ele é desligado e o amarelo acende por 2 segundos.
+2. Em seguida, o LED vermelho acende por 5 segundos para permitir a travessia segura.
+3. Após a travessia, o ciclo normal é retomado.
 
-## Componentes Utilizados
+## 🧩 Componentes Utilizados
 
-* Arduino Uno R3
-* LEDs: 1 Vermelho, 1 Amarelo, 1 Verde
-* Resistores: 3 resistores de 220 ohms (ou valor apropriado para seus LEDs)
-* Botão de pressão (Push Button)
-* Protoboard
-* Jumpers
+- Arduino Uno R3
+- 3 LEDs (vermelho, amarelo e verde)
+- 3 resistores de 220 Ω
+- 1 botão de pressão (*Push Button*)
+- Protoboard e jumpers
 
-## Montagem
+## 📂 Conteúdo da Pasta
 
-O circuito é montado em uma protoboard, conectando os componentes ao Arduino Uno conforme o diagrama esquemático. As conexões dos LEDs e do botão ao Arduino são feitas através de resistores para limitar a corrente e proteger os componentes.  Certifique-se de conectar os LEDs corretamente, observando a polaridade (perna mais longa é o positivo).
-
-
-## Código-Fonte
-
-O código-fonte para o Arduino está disponível neste repositório no arquivo `epic_wolt1.ino`.
+- `epic_wolt1.ino` — código-fonte em C++ (Arduino).
+- `semaforo.png` — diagrama do circuito no Tinkercad.
+- `LICENSE` — licença do projeto.

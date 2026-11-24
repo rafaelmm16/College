@@ -1,67 +1,32 @@
-# Interface-Humano-Computador
+[← Voltar ao repositório principal](../../../README.md) • [🌐 Site do Portfólio](https://rafaelmm16.github.io/college/)
 
-Este é um protótipo de uma aplicação web para delivery de comida, desenvolvido como parte do projeto da disciplina de Interface Humano-Computador. A aplicação simula a jornada de um usuário, desde o login até a finalização de um pedido.
+# Interface Humano-Computador
 
-[](https://www.google.com/search?q=https://rafaelmm16.github.io/Interface-Humano-Computador/)
+> **Área:** Web, Mobile & IHC · **Tecnologias:** Next.js, TypeScript, Tailwind CSS e shadcn/ui · **Ano:** 2025
 
-**[Clique aqui para ver a demonstração ao vivo](https://rafaelmm16.github.io/Interface-Humano-Computador/)**
+## 📖 Sobre o Projeto
+
+Protótipo de uma aplicação web para **delivery de comida**, desenvolvido como projeto da disciplina de **Interface Humano-Computador**, simulando toda a jornada do usuário desde a autenticação até a confirmação do pedido.
 
 ## ✨ Funcionalidades
 
-  - **Tela de Autenticação:** Uma interface de login e cadastro de novos usuários.
-  - **Cardápio Interativo:** Navegação por um cardápio com diferentes categorias de produtos (Massas, Pizzas, Bebidas, etc.).
-  - **Pesquisa de Pratos:** Campo de busca para filtrar e encontrar pratos específicos.
-  - **Carrinho de Compras:** Funcionalidade para adicionar itens ao carrinho, ajustar quantidades e remover produtos.
-  - **Checkout Simplificado:** Uma tela de resumo do pedido com cálculo de subtotal, taxa de entrega e valor total.
-  - **Confirmação de Pedido:** Simulação de uma tela de sucesso após a confirmação do pedido.
+- **Tela de Autenticação:** interface de login e cadastro de novos usuários.
+- **Cardápio Interativo:** navegação por categorias de produtos (massas, pizzas, bebidas, etc.).
+- **Pesquisa de Pratos:** busca em tempo real para filtrar itens do cardápio.
+- **Carrinho de Compras:** adição, ajuste de quantidades e remoção de itens.
+- **Checkout Simplificado:** resumo do pedido com cálculo de subtotal, taxa de entrega e total.
+- **Confirmação de Pedido:** tela de sucesso simulando a finalização da compra.
 
-## 🚀 Tecnologias Utilizadas
+## 📂 Conteúdo da Pasta
 
-Este projeto foi construído com tecnologias modernas de desenvolvimento web:
+- `food-app-prop/` — aplicação Next.js (App Router) com Tailwind CSS, Radix UI, shadcn/ui e Lucide React.
 
-  - **Framework:** [Next.js](https://nextjs.org/) (com App Router)
-  - **Linguagem:** [TypeScript](https://www.typescriptlang.org/)
-  - **Estilização:**
-      - [Tailwind CSS](https://tailwindcss.com/)
-      - Componentes construídos com [shadcn/ui](https://ui.shadcn.com/), [Radix UI](https://www.radix-ui.com/) e [Lucide React](https://lucide.dev/) para ícones.
-  - **Implantação (Deploy):** Configurado para exportação estática e implantação contínua no [GitHub Pages](https://pages.github.com/) através do [GitHub Actions](https://github.com/features/actions).
+## 🚀 Como Executar Localmente
 
-## ⚙️ Como Executar o Projeto Localmente
+Requer **Node.js 18+**:
 
-Siga os passos abaixo para rodar a aplicação no seu ambiente de desenvolvimento.
-
-**Pré-requisitos:**
-
-  - [Node.js](https://nodejs.org/en/) (versão 18 ou superior)
-  - [npm](https://www.npmjs.com/) ou outro gerenciador de pacotes
-
-**Passos:**
-
-1.  **Clone o repositório:**
-
-    ```bash
-    git clone https://github.com/rafaelmm16/Interface-Humano-Computador.git
-    ```
-
-2.  **Navegue até a pasta do projeto:**
-
-    ```bash
-    cd Interface-Humano-Computador/food-app-prop
-    ```
-
-3.  **Instale as dependências:**
-
-    ```bash
-    npm install
-    ```
-
-    *Observação: Se encontrar problemas de dependências, pode ser necessário usar `npm install --legacy-peer-deps`.*
-
-4.  **Execute o servidor de desenvolvimento:**
-
-    ```bash
-    npm run dev
-    ```
-
-5.  **Abra no navegador:**
-    Acesse [http://localhost:3000](https://www.google.com/search?q=http://localhost:3000) no seu navegador para ver a aplicação em funcionamento.
+```bash
+cd food-app-prop
+npm install
+npm run dev
+```

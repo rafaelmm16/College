@@ -1,64 +1,30 @@
-# SGBus
+[← Voltar ao repositório principal](../../../README.md) • [🌐 Site do Portfólio](https://rafaelmm16.github.io/college/)
 
-Backend e Mobile do projeto SGBus.
+# Projeto de Sistemas (SGBus)
 
-## Sobre o Projeto
+> **Área:** Projetos Integradores & Sistemas · **Tecnologias:** TypeScript, React / React Native, Node.js, Express, TypeORM e SQLite · **Ano:** 2023
 
-O projeto foi pensado para facilitar a vida do estudante, onde no app pode encontrar os pontos e rotas de ônibus assim como fazer a recarga do seu cartão de passagem.
+## 📖 Sobre o Projeto
 
-### 🛠 Tecnologias
+**SGBus** é um protótipo composto por **backend** e **aplicativo mobile** desenvolvido para a disciplina de **Projeto de Sistemas**. O sistema foi pensado para facilitar a rotina de estudantes, permitindo consultar pontos e rotas de ônibus e realizar a recarga do cartão de passagem.
 
-Foram utilizadas as seguintes ferramentas para o projeto:
+## 🛠️ Tecnologias Utilizadas
 
 - [TypeScript](https://www.typescriptlang.org/)
-- [React](https://pt-br.reactjs.org/)
-- [Node.js](https://nodejs.org/en/)
-- [Sqlite](https://www.sqlite.org/index.html)
-- [TypeORM](https://typeorm.io/#/)
-- [Express](https://expressjs.com/)
+- [React](https://react.dev/) / React Native
+- [Node.js](https://nodejs.org/) & [Express](https://expressjs.com/)
+- [TypeORM](https://typeorm.io/) & [SQLite](https://www.sqlite.org/)
 
----
+## 📂 Conteúdo da Pasta
 
-### Pré-requisitos
+- `Projeto/` — código-fonte das aplicações backend e mobile do SGBus.
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+## 🚀 Como Executar Localmente
 
-### 🎲 Rodando o Backend
+Requer **Node.js** e **Yarn** (ou **npm**):
 
 ```bash
-# Clone ou baixe o repositório
-# Acesse a pasta do projeto no terminal/cmd
-$ cd backend
-# Instale as dependências
-$ yarn
-# ou
-$ npm install
-# Rode as migrations
-$ yarn typeorm migration:run
-# Execute a aplicação em modo de desenvolvimento
-$ yarn dev
-```
-
-### 🎲 Rodando o Mobile
-
-```bash
-# Clone este repositório
-# Acesse a pasta do projeto no terminal/cmd
-$ cd mobile
-# Instale as dependências
-$ yarn
-# ou
-$ npm install
-# Execute a aplicação em modo de desenvolvimento
-$ yarn start
-# No terminal aparece a URL de acesso
-```
-
-### ‼ Observações
-
-```
-O projeto ainda é só um protótipo.
-Não foram implementadas todas as funcionalidades.
+# Acesse a pasta do backend ou mobile dentro de Projeto/
+cd Projeto
+yarn
 ```

@@ -1,19 +1,35 @@
-# ED2
+[← Voltar ao repositório principal](../../../README.md) • [🌐 Site do Portfólio](https://rafaelmm16.github.io/college/)
 
-Repositório para a disciplina de Estruturas de Dados ll
+# Estrutura de Dados II
 
-## 💻 Sobre o Projeto
+> **Área:** Estruturas de Dados & Teoria · **Linguagem:** C · **Ano:** 2023
 
-O objetivo do presente trabalho consiste em implementar a árvore rubro-negra de forma que os nós não tenham ponteiro para o nó pai. 
-O Programa foi implementado em **Linguagem C**.
+## 📖 Sobre o Projeto
 
-### 🎲 Sobre o Programa
+Trabalho prático desenvolvido para a disciplina de **Estrutura de Dados II** em **linguagem C**, cujo objetivo é implementar uma **Árvore Rubro-Negra (Red-Black Tree)** sem ponteiro para o nó pai.
 
-Uma empresa de importação resolve informatizar o processo de controle de estoque. Para isso ela precisa de um sistema que permite:
-1) Cadastrar um novo produto;
-2) Excluir um produto cadastrado;
-3) Atualizar a quantidade de um produto no estoque;
-4) Listar todos os produtos cadastrados;
-5) Listar todos os produtos em estoque;
-6) Imprimir a árvore Rubro-Negra;
-7) Sair.
+### 📋 Funcionalidades do Sistema de Estoque
+
+O sistema simula o controle de estoque de uma empresa de importação, permitindo:
+
+1. Cadastrar um novo produto;
+2. Excluir um produto cadastrado;
+3. Atualizar a quantidade de um produto no estoque;
+4. Listar todos os produtos cadastrados;
+5. Listar todos os produtos em estoque;
+6. Imprimir a árvore Rubro-Negra;
+7. Encerrar o programa.
+
+## 📂 Conteúdo da Pasta
+
+- `main.c` — interface de menu e fluxo principal do programa.
+- `RBT.h` / `RBT.c` — definição e implementação da Árvore Rubro-Negra.
+
+## 🚀 Como Executar
+
+Requer um compilador C (`gcc`):
+
+```bash
+gcc main.c RBT.c -o estoque
+./estoque
+```
