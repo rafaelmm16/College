@@ -1,0 +1,82 @@
+********* Para definir comentários: *********
+
+% - comentários
+
+********* Para definir parâmetros: *********
+
+texto(fator1, fator2). - como definir
+
+********* Para buscar fatos: *********
+
+texto(fator1, fator2). - como buscar(true or false)
+texto(X, fator2). - como buscar(em relação a X)
+texto(X, Y). - como buscar(em relação a X e Y)
+(se tiver mais de um resultado é necessário colocar um ";")
+
+********* Para verificar 2 Fatos juntos: *********
+
+texto(X, fator2),texto(X, fator3).
+
+********* Para verificar 2 fatos atrás: *********
+
+texto(X, Y),texto(Y, fator2).
+ou
+texto(X, Y),texto(Y, Z).
+
+********* Para filtrar mais a busca *********
+
+texto(X, Y),texto(Y, fator), texto2(X).
+texto(X, Y),texto(Y, fator), texto3(Y).
+texto(X, Y),texto(X, fator2), texto2(Y).
+
+********* Regras *********
+
+Parâmetros das regras são sempre em Maiúsculo
+
+Se ou Implica: ":-"
+
+texto1(X, Y) :-
+	texto2(X, Y).
+
+ou
+
+texto1(X, Y) :-
+	texto2(X, Y),
+	texto3(X).
+
+ou
+
+texto1(X, z) :-
+	texto2(X, Y),
+	texto2(Y, Z).
+
+********* Operadores *********
+
+Igualdade: "="
+Diferença: "\=" (em alguns compiladores o operador de diferença é "<>")
+Menor que: "<"
+Maior que: ">"
+Menor ou igual: "=<" (alguns compiladores seguem a versão ">=")
+Maior ou igual: ">="
+
+********* Operadores Ariméticos *********
+
+Soma: "+";
+Subtração: "-";
+Multiplicação: "*";
+Divisão: "/";
+... "mod";
+Módulo: "is".
+
+********* Entrada e Saída *********
+
+read(). == Leitura
+write(). == Mostrada na IDE
+tab(n). == Espaçamento com o tamanho(n)
+
+Parâmetro vazio: texto().
+Parâmetro atribuido: texto(X,Y...).
+
+Como se trata de uma string é necessário colocar em " ".
+ex: |: "rafael".
+
