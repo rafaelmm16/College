@@ -2,6 +2,8 @@
 
 Monorepositório + site em **Next.js** e **Tailwind CSS** que reúne, em um único lugar, todos os códigos e projetos de 19 disciplinas cursadas durante a graduação em **Sistemas de Informação** por [Rafael Merlo (@rafaelmm16)](https://github.com/rafaelmm16).
 
+🌐 **Site no GitHub Pages:** [https://rafaelmm16.github.io/college/](https://rafaelmm16.github.io/college/)
+
 ## ✨ O que este repositório contém
 
 - **Site em Next.js + Tailwind CSS** (`src/`): vitrine interativa com busca em tempo real, filtros por área e linguagem, ordenação, alternância de visualização, distribuição de linguagens e linha do tempo acadêmica.
@@ -95,12 +97,18 @@ Acesse [http://localhost:3000](http://localhost:3000) no navegador.
 ### Outros scripts
 
 ```bash
-# Gerar build de produção
+# Gerar build estático de produção (pasta out/)
 npm run build
-
-# Iniciar servidor de produção
-npm run start
 
 # Verificar lint
 npm run lint
 ```
+
+## 🌐 Deploy no GitHub Pages
+
+O repositório já possui o workflow [`.github/workflows/deploy.yml`](./.github/workflows/deploy.yml) configurado para publicar automaticamente o site estático a cada `push` na branch `main`.
+
+Para ativar no GitHub (apenas na primeira vez):
+1. Acesse **Settings → Pages** no repositório.
+2. Em **Build and deployment → Source**, selecione **GitHub Actions**.
+3. Faça o push para a branch `main` (ou execute o workflow manualmente na aba **Actions**).
